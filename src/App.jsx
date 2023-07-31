@@ -5,6 +5,9 @@ import Faq from "./pages/Faq/Faq";
 import Library from "./pages/Library/Library";
 import Layout from "./components/Layout/Layout";
 
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
+gsap.registerPlugin(ScrollTrigger);
 function App() {
   return (
     <div>

@@ -1,17 +1,26 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { StyledContainer } from "../Container/StyledContainer";
-import { StyledHero, StyledHeroBtn, StyledHeroTitle } from "./StyledHero";
+import { StyledBtn, StyledHero, StyledHeroTitle } from "./StyledHero";
+import styled from "@emotion/styled";
+
+const StyledLink = styled(NavLink)`
+  color: white;
+  padding: "0.6em 1.2em";
+  &:hover {
+    color: inherit;
+  }
+`;
 
 export default function Hero() {
   return (
-    <StyledHero>
+    <StyledHero className="hero">
       <StyledContainer>
         <StyledHeroTitle>
-          <h1>UNLIMITED MUSIC FOR YOUR CONTENT</h1>
+          <h1 className="title">UNLIMITED MUSIC FOR YOUR CONTENT</h1>
         </StyledHeroTitle>
-        <StyledHeroBtn>
-          <Link to="./library">Browse</Link>
-        </StyledHeroBtn>
+        <StyledBtn>
+          <StyledLink to="./library">Browse</StyledLink>
+        </StyledBtn>
       </StyledContainer>
     </StyledHero>
   );

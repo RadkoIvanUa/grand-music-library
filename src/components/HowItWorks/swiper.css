@@ -1,0 +1,28 @@
+.swiper {
+  width: 800px;
+  height: 420px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  padding: 20px;
+  border-radius: 18px;
+  font-size: 22px;
+
+  background-color: #fff;
+  color: #000;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--mainBlueColor);
+}
+.swiper-button-next {
+  right: -200px;
+}
+.swiper-button-prev {
+  left: -200px;
+}

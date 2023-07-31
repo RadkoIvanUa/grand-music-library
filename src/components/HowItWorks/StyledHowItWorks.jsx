@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
 export const StyledSection = styled.section({
-  marginTop: 60,
+  marginBottom: "50vh",
   h2: {
     textAlign: "center",
-    fontSize: 30,
+    fontSize: 70,
   },
 });
 

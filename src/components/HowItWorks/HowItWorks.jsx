@@ -11,7 +11,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import "swiper/css/navigation";
 
-import "../../index.css";
+import "./swiper.css";
 
 // import required modules
 import { EffectCards, Mousewheel, Navigation } from "swiper/modules";
@@ -26,12 +26,13 @@ export default function HowItWorks() {
   return (
     <StyledSection>
       <StyledContainer>
-        <h2>How it works</h2>
+        <h2 className="gsap-how-title">How it works</h2>
         <Swiper
           effect={"cards"}
           grabCursor={true}
           navigation={true}
           modules={[EffectCards, Navigation, Mousewheel]}
+          className="gsap-how"
         >
           <SwiperSlide>
             <StyledSwiperNumber src={one} width={50} alt="" />
