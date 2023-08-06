@@ -33,6 +33,7 @@ export default function HowItWorks() {
           navigation={true}
           modules={[EffectCards, Navigation, Mousewheel]}
           className="gsap-how"
+          style={{ width: 800, height: 420 }}
         >
           <SwiperSlide>
             <StyledSwiperNumber src={one} width={50} alt="" />

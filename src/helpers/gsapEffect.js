@@ -97,4 +97,29 @@ export const gsapEffect = () => {
       },
     }
   );
+  gsap.fromTo(
+    ".gsap-playlists-title",
+
+    { y: 50, opacity: 0 },
+    {
+      y: 0,
+      opacity: 1,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".gsap-playlists-title",
+      },
+    }
+  );
+  gsap.fromTo(
+    ".gsap-playlists",
+
+    { y: 50 },
+    {
+      y: 0,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".gsap-playlists",
+      },
+    }
+  );
 };
