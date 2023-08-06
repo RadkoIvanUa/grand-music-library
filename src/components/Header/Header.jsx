@@ -32,6 +32,9 @@ export default function Header() {
               <StyledLink to="/Library">Browse</StyledLink>
             </li>
             <li>
+              <StyledLink to="/About">About Me</StyledLink>
+            </li>
+            <li>
               <StyledLink to="/Faq">FAQ</StyledLink>
             </li>
           </ul>

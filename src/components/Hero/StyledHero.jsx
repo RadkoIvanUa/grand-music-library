@@ -9,15 +9,20 @@ export const StyledHero = styled.div`
       rgba(0, 0, 0, 0.6) 100%
     ),
     url(${backgroundImg});
-  height: 100vh;
+
+  height: 600px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 120px;
+
+  display: flex;
+  align-items: center;
 `;
 
 export const StyledHeroTitle = styled.div({
   width: 750,
-  paddingTop: 250,
+
   h1: {
     fontSize: 80,
     lineHeight: "115%",

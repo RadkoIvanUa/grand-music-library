@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
 
 export const StyledContainer = styled.div({
-  maxWidth: 1280,
+  maxWidth: 1124,
   margin: "0 auto",
-  paddingLeft: 20,
-  paddingRight: 20,
+  paddingLeft: 15,
+  paddingRight: 15,
 });

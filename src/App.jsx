@@ -7,6 +7,7 @@ import Layout from "./components/Layout/Layout";
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import About from "./pages/About/About";
 gsap.registerPlugin(ScrollTrigger);
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/about" element={<About />} />
           <Route path="/library" element={<Library />} />
         </Route>
       </Routes>
