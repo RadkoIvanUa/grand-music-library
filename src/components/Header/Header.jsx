@@ -1,4 +1,4 @@
-import { Link, NavLink, Outlet } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { StyledHeader } from "./StyledHeader";
 import styled from "@emotion/styled";
 import logo from "../../img/logo.svg";
@@ -40,9 +40,6 @@ export default function Header() {
           </ul>
         </nav>
       </StyledHeader>
-      <div style={{ paddingTop: 80 }}>
-        <Outlet />
-      </div>
     </div>
   );
 }

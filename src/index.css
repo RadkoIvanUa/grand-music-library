@@ -6,7 +6,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,6 +18,10 @@
 img {
   margin: 0;
   padding: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
@@ -34,6 +37,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
+  background-color: #242424;
+  color: #ffffff;
 }
 
 p {
