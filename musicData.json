@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Cinematic Soundtrack.mp3",
+    "src": "music\\Cinematic Soundtrack.mp3",
+    "isPaused": true,
+    "category": "epic"
+  },
+  {
+    "title": "Cinematic Violin.mp3",
+    "src": "music\\Cinematic Violin.mp3",
+    "isPaused": true,
+    "category": "cinematic"
+  },
+  {
+    "title": "Clean Logo.mp3",
+    "src": "music\\Clean Logo.mp3",
+    "isPaused": true,
+    "category": "logo"
+  }
+]
