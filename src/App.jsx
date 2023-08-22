@@ -8,10 +8,12 @@ import Layout from "./components/Layout/Layout";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import About from "./pages/About/About";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
 gsap.registerPlugin(ScrollTrigger);
 function App() {
   return (
-    <div>
+    <Provider store={store}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -21,7 +23,7 @@ function App() {
           <Route path="/library" element={<Library />} />
         </Route>
       </Routes>
-    </div>
+    </Provider>
   );
 }
 
